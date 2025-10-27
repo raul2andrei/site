@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #66B2FF ;
+    color: #000;
+  }
+  .taskbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #89af98 ;
+    color: #F7F7F7;
+    padding: 10px 20px;
+    position: fixed; 
+    top: 0;
+    width: 98%;
+    height: 60px;
+    z-index: 1000;
+  }
+  .logo{
+    width: 110px;
+    height: 110px;
+    color: #F7F7F7;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .poza{
+    width: 110px;
+    height: 110px;
+    color: #F7F7F7;
+    align-self: center;
+    margin-top: 10px;
+  }
+  .poza:hover{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .second.task{
+    display: flex;
+    flex-direction: column;
+  }
+  .servicii{
+    background-color: transparent;
+    border: 0,5;
+    color: #F7F7F7;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #F7F7F7;
+    border: solid;
+    margin-right: 20px;
+  }
+  .contact{
+    background-color: transparent;
+    border: 0,5;
+    color: #F7F7F7;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    border: solid;
+    margin-right: 10px;
+  }
+  .div1{
+    display: flex;
+    flex-direction: column;
+    background-color: #66B2FF;
+    height: 450px;
+  }
+  .p1{
+    font-size: 60px;
+    align-self: center;
+    margin-top: 100px;
+  }
+  .p2{
+    align-self: center;
+    font-size: 30px;
+    width: 1000px;
+    margin-top: -40px;
+  }
+  .div2{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-color: #F7F7F7;
+  }
+  .div3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+  }
+  .p3{
+    font-size: 60px;
+    align-self: center;
+    margin-top: 10px;
+  }
+  .fizio{
+    background-color: #66B2FF;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 50px;
+    font-size: 30px;
+    width: 300px;
+    height: 150px;
+    margin-left: 4px;
+    color: white;
+  }
+  .kineto{
+    background-color: #66B2FF;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 50px;
+    font-size: 30px;
+    width: 300px;
+    height: 150px;
+    color: #F7F7F7;
+  }
+  .osteo{
+    background-color: #66B2FF;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 50px;
+    font-size: 30px;
+    width: 300px;
+    height: 150px;
+    margin-right: 4px;
+    color: #F7F7F7;
+  }
+  .fizio:hover{
+    cursor: pointer;
+    border-color: rgb(0, 0, 0);
+    background-color: #F7F7F7;
+    color: black;
+    transition: 1s;
+  }
+  .kineto:hover{
+    cursor: pointer;
+    border-color: rgb(0, 0, 0);
+    background-color: #F7F7F7;
+    color: black;
+    transition: 1s;
+  }
+  .osteo:hover{
+    cursor: pointer;
+    border-color: rgb(0, 0, 0);
+    background-color: #F7F7F7;
+    color: black;
+    transition: 1s;
+  }
+  .contact:hover{
+    border: black solid 1px;
+    color: #000;
+    cursor: pointer;
+  }
